@@ -1,0 +1,39 @@
+﻿Resumo do Projeto
+Autor:Lorenzo Borba Brambilla
+Objetivo: Desenvolver um sistema de monitoramento confiável, robusto e modular, permitindo atualizações e adaptações, utilizando a metodologia QFD.
+Metas:
+* Transmissão sem fio de dados em tempo real.
+* Aquisição dos seguintes parâmetros:
+   * RPM do motor
+   * Velocidade do eixo traseiro
+   * Relação e temperatura da CVT
+   * Pressão da linha de freio
+   * Tensão da bateria
+   * Acelerações no CG
+   * Angulação do veículo
+   * Coordenadas e velocidade real
+   * Velocidade das rodas dianteiras
+   * Status do diferencial
+Estrutura do Sistema:
+* ECU de Aquisição: Responsável por adquirir e tratar todos os dados dos sensores. Utiliza um ESP32 como microcontrolador e componentes PTH. Todos os sensores que operam com 12V possuem interface optoacoplada com o microcontrolador.
+   * Sensores utilizados:
+      * ReedSwitch para RPM do motor
+      * Sensor indutivo para velocidade da CVT
+      * Sensor infravermelho para temperatura da CVT
+      * Sensor de pressão para a linha de freio (futuro)
+      * Sensor de tensão da bateria
+      * Acelerações e angulação com MPU6050
+      * Coordenadas e velocidade real com GPS
+* Painel e Software de Telemetria: Interface para o piloto e comunicação com a equipe de BOX. Utiliza um display digital de alto brilho (800 nits) para exibir informações cruciais como RPM do motor, velocidade, temperatura da CVT, tensão da bateria e status do freio. Permite comunicação bidirecional com o BOX através do protocolo LoRa.
+Chicotes e Alimentação:
+* Cinco chicotes removíveis e documentados, dois obrigatórios por regulamento e três adicionais para alimentação e comunicação CAN das ECUs e sensoriamento dianteiro e traseiro.
+* Consumo máximo de 760mAh e autonomia de 10 horas com bateria de 9Ah.
+
+
+Evolução do Sistema:
+* Versão Anterior: Utilizava três ECUs com ATmega328 e monitorava apenas cinco parâmetros.
+* Nova Versão: Utiliza ESP32, monitora mais parâmetros, simplificou a arquitetura e melhorou a precisão dos dados.
+* Painel: Atualização de displays de segmentos para display digital de 800 nits.
+* Telemetria Bidirecional: Implementação de comunicação BOX->Piloto via LoRa.
+* Design das Caixas: Estanqueidade aprimorada com inclusão de O-rings e projetos em SolidWorks.
+A mudança para microcontrolador de 32 bits, inclusão de mais parâmetros, simplificação na aferição de dados, painel digital, telemetria bidirecional e estanqueidade aprimorada resultaram em um sistema de monitoramento mais eficiente e funcional.
