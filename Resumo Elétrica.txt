@@ -5,7 +5,7 @@ O regulamento do Baja SAE Brasil impõe uma série de normas para a parte elétr
 * Tamanho dos chicotes: Devem ser utilizados chicotes de cabeamento adequado e seguro.
 * Itens obrigatórios: Luz de freio e alarme de ré são obrigatórios, assim como o uso de dispositivos de proteção contra sobrecorrente.
 * Normas básicas de engenharia: Incluem boas práticas para a fixação e proteção dos componentes elétricos.
-* Limitações elétricas: Capacidade máxima das baterias e a soma da capacidade de todas as baterias não devem ultrapassar 270 W.h.
+* Limitações elétricas: Capacidade máxima das baterias e a soma da capacidade de todas as baterias não devem ultrapassar 240 W.h,a 360Wh.
 * Posicionamento das chaves gerais: É crucial para o desligamento seguro do motor do veículo, com duas chaves gerais de fácil acesso.
 Um ponto de destaque no regulamento atual é a exigência rigorosa para baterias de lítio, especialmente quanto ao seu invólucro. Estes devem atender a requisitos estritos devido à alta reatividade dos íons de lítio com o oxigênio e outros elementos, além de sua toxicidade. O regulamento exige proteções equivalentes às da parede corta-fogo, demonstrando a gravidade dos riscos de vazamento ou rompimento das células de bateria durante os treinos e competições.
 O regulamento de elétrica oferece espaço para que as equipes criem inovações, focando principalmente na segurança, que deve ser sempre a prioridade em qualquer competição.
