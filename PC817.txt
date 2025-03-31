@@ -1,6 +1,0 @@
-﻿PC817
-Autor:Lorenzo Borba Brambilla
-
-
-        O PC817 é um optoacoplador utilizado em circuitos para isolar sinais elétricos das diferentes partes do sistema elétrico.As suas principais aplicações são em isolamento de sinais em circuitos digitais,isolamento de fontes de alimentação,comunicações microcontroladas e dispositivos de alta tensão ,Interfaces de controle industriais.
-        Características :ED infravermelho de emissão (IRED) no lado de entrada,fototransistor NPN no lado de saída,isolamento elétrico entre entrada e saída: 5000 Vrms,Máxima corrente contínua direta (IF): 50 mA,tensão direta típica (VF): 1.2V a 1.4V (corrente de 20 mA),tensão de coletor-emissor máxima (VCEO): 35V,tensão de coletor-base máxima (VCBO): 35V,tensão de emissor-base máxima (VEBO): 6V,corrente de coletor máxima (IC): 50 mA,ganho de corrente de transferência (CTR): 50% a 600% (medido com IF = 5mA e VCE = 5V),temperatura de operação: -30°C a 100°C.
